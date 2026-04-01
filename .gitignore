@@ -1,0 +1,7 @@
+/.venv
+
+#Settings > Project > Add intepreter
+#.\/.venv/Scripts/activate
+#pip install django
+#pip list
+#django-admin startporkect projectname
