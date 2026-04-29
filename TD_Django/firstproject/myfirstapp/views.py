@@ -6,6 +6,6 @@ def index(request):
 def formulaire(request):
     return  render(request, 'myfirstapp/formulaire.html')
 def bonjour(request):
-    nom = request.GET("nom")
-    prénom = request.GET("prénom")
+    nom = request.GET["nom"]
+    prénom = request.GET["prénom"]
     return  render(request, 'myfirstapp/bonjour.html', {"nom":nom, "prénom":prénom})
